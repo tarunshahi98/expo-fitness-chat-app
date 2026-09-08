@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "unicorn", "typescript", "react-hooks"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/immutability": "off",
+    "react/set-state-in-effect": "off"
+  },
+  "ignorePatterns": ["node_modules/**", "android/**", "ios/**", "dist/**", ".expo/**", "chat-connect/**"]
+}
